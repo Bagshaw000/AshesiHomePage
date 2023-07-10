@@ -2,6 +2,9 @@ import React from 'react'
 import Header from './Header'
 import Mission from './Mission'
 import Statistics from './Statistics'
+import Video from './Video'
+import Extra from './Extra'
+import Footer from './Footer'
 
 export default function Body() {
   return (
@@ -19,6 +22,9 @@ export default function Body() {
     </div>
         <Mission></Mission>
         <Statistics></Statistics>
+        <Video></Video>
+        <Extra></Extra>
+        <Footer></Footer>
     </div>
   )
 }

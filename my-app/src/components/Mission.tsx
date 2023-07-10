@@ -23,7 +23,7 @@ export default function Mission() {
         <div className='flex flex-row justify-center space-x-4 mt-6 mb-14'>
             <div>
                 <img src={student} alt={student} className='w-60'/>
-                <a className='font-bold text-gray-700'>
+                <a href="/dashboard" className='font-bold text-gray-700'>
                     APPLY TO BE A STUDENT
                 </a>
             </div>
